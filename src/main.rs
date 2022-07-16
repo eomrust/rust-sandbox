@@ -21,11 +21,10 @@ fn variables_mutability() {
     println!("Length of spaces {}", spaces.len());
 }
 
-
 fn invalid_array() {
     let a = [1, 2, 3, 4, 5];
 
-    println!("Please enter an array index between 0-{}", a.len()-1);
+    println!("Please enter an array index between 0-{}", a.len() - 1);
 
     let mut index = String::new();
 
@@ -43,7 +42,7 @@ fn invalid_array() {
     println!("The value of the element at index {index} is: {element}");
 }
 
-fn datatypes() {
+fn data_types() {
     let guess: i16 = 1_900i16;
     println!("Guess: {guess}");
 
@@ -73,12 +72,22 @@ fn datatypes() {
     let a = [1, 2, 3, 4, 5];
     let b: [i32; 5] = [1, 2, 3, 4, 5];
 
-
-    let months = ["January", "February", "March", "April", "May", "June", "July",
-              "August", "September", "October", "November", "December"];
+    let months = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December",
+    ];
     println!("january - ({})", &months[0]);
-} 
-
+}
 
 fn numerical_operations() {
     // addition
@@ -105,7 +114,7 @@ fn main() {
     variables_mutability();
 
     // 3.2
-    datatypes();
+    data_types();
     numerical_operations();
     invalid_array();
 
