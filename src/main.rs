@@ -1,10 +1,10 @@
 #![allow(unused)]
 mod chapter_three;
-mod guessing;
+mod guessing_game;
 mod hello_world;
 
 fn main() {
     hello_world::examples();
     chapter_three::examples();
-    guessing::guessing_game();
+    guessing_game::play();
 }

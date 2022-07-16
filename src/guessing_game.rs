@@ -12,7 +12,7 @@ fn easter_eggs(guess: u32, games_played: u32) {
             println!("Have you considered playing something else?")
         }
 }
-pub fn guessing_game() {
+pub fn play() {
 
     let mut games_played: u32 = 0;
     loop {
