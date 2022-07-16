@@ -1,7 +1,7 @@
-# rust-sandbox
+# rustbox
 Playing around with rust.
 
-# rustbox (Developer Environment)
+# Developer Environment
 - Ubuntu 22.04
 - Rust 1.62.0
 
