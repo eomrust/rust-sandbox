@@ -3,7 +3,7 @@ Playing around with rust.
 
 # rustbox (Developer Environment)
 - Ubuntu 22.04
-- Rust 1.55.0
+- Rust 1.62.0
 
 # Building for Release
  ```
