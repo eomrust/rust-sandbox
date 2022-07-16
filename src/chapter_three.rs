@@ -99,14 +99,14 @@ fn numerical_operations() {
     let _remainder = 43 % 5;
 }
 
-pub fn examples(){
+pub fn examples() {
     // 3.1
     variables_mutability();
 
     // 3.2 Data Types
     data_types();
     numerical_operations();
-    invalid_array();
+    //invalid_array(); TODO: Convert to a test case
 
     // 3.3 Functions
     print_labeled_measurement(5, 'h');
@@ -195,7 +195,6 @@ fn control_flow() {
         number -= 1;
     }
     println!("LIFTOFF!!!");
-
 
     // Safer loops relative to conditional loops
     for number in (1..4).rev() {

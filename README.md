@@ -13,6 +13,9 @@ Playing around with rust.
  
 # Troubleshooting
 
+
+``cargo doc --open```
+
 What version of rust am I running?
 
 ```
