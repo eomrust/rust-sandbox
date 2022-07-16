@@ -19,6 +19,6 @@
 	"remoteUser": "vscode",
 	"features": {
 		"git": "latest",
-		"rust": "1.55"
+		"rust": "1.62"
 	}
 }
