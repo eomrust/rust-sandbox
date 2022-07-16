@@ -13,8 +13,11 @@ Playing around with rust.
  
 # Troubleshooting
 
+Docs?
 
-``cargo doc --open```
+* ```cargo doc --open```
+* ```https://doc.rust-lang.org/book/```
+* ```https://docs.docker.com/engine/reference/builder/```
 
 What version of rust am I running?
 
