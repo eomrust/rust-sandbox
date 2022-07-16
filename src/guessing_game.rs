@@ -3,21 +3,22 @@ use std::cmp::Ordering;
 use std::io;
 
 fn easter_eggs(guess: u32, games_played: u32) {
-        // https://www.dictionary.com/e/slang/42/
-        if guess == 42 && games_played == 1 {
-            println!("bonus points for knowing the ultimate question of life, the universe, and everything")
-        }
+    // https://www.dictionary.com/e/slang/42/
+    if guess == 42 && games_played == 1 {
+        println!(
+            "bonus points for knowing the ultimate question of life, the universe, and everything"
+        )
+    }
 
-        if games_played == 7 {
-            println!("Have you considered playing something else?")
-        }
+    if games_played == 7 {
+        println!("Have you considered playing something else?")
+    }
 }
 pub fn play() {
-
     let mut games_played: u32 = 0;
     loop {
         games_played += 1;
-        
+
         let secret_number = rand::thread_rng().gen_range(1..=100);
         println!("Guess the number!");
 
@@ -39,10 +40,10 @@ pub fn play() {
         match guess.cmp(&secret_number) {
             Ordering::Less => println!("Too small!"),
             Ordering::Greater => println!("Too big!"),
-            Ordering::Equal => { 
+            Ordering::Equal => {
                 println!("You win!");
                 break;
-            },
+            }
         }
 
         println!("guess: {guess} secret_number: {secret_number}");
