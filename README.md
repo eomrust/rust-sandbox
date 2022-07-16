@@ -5,12 +5,19 @@ Playing around with rust.
 - Ubuntu 22.04
 - Rust 1.55.0
 
+# Building for Release
+ ```
+ sh presubmit.sh
+ cargo build --release
+ ```
+ 
 # Troubleshooting
 
 What version of rust am I running?
 
 ```
 rustc --version
+cargo --version
 ```
 
 Where is rust installed?
